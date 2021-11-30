@@ -18,7 +18,7 @@ void generate_Subnet_IP(int mask_segments[],int network_segments[],char* db_name
 
     int upper = 255;
     int lower = 0;
-    int l=0;
+    int l=1;
 
     for(int j=0; j < 10 ; ++j){
 
