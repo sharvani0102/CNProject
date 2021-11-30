@@ -143,7 +143,7 @@ void generate_Network(int suffix_length,char*mask,char* db_name[]){
 
         int ip_segments[] = {a,b,c,d};
         
-        generate_Subnet_IP(ip_segments,mask_segments,db_name[i]);
+        generate_Subnet_IP(mask_segments,ip_segments,db_name[i]);
     }
 
 }
